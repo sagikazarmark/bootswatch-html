@@ -1,0 +1,14 @@
+{
+  "name": "bootswatch-html",
+  "version": "1.0.0",
+  "ignore": [
+    "bower_components",
+    ".gitignore",
+    "Gruntfile.js",
+    "package.json"
+  ],
+  "dependencies": {
+    "jquery": "~1.10.2",
+    "jquery-bootswatch": "~0.0.5",
+  }
+}

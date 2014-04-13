@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<title>Bootswatch HTML</title>
+
+	<script src="assets/js/lib/jquery.min.js"></script>
+</head>
+<body>
+	<div class="container">
+		<div class="btn-group">
+			<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+				Themes <span class="caret"></span>
+			</button>
+			<ul class="dropdown-menu themes" role="menu">
+				<li><a href="#">Default</a></li>
+			</ul>
+		</div>
+		<!-- build:include bootswatch/bootswatch.html -->
+		<!-- /build -->
+	</div>
+
+	<script src="assets/js/lib/jquery.bootswatch.js"></script>
+	<script src="assets/js/lib/bootstrap.min.js"></script>
+	<script>
+		(function($) {
+			$(document).ready(function($) {
+				$('[data-toggle="popover"]').popover();
+				$('[data-toggle="tooltip"]').tooltip();
+				$('.themes').bootswatch();
+			});
+		})(jQuery);
+	</script>
+</body>
+</html>
