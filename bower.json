@@ -5,10 +5,11 @@
     "bower_components",
     ".gitignore",
     "Gruntfile.js",
-    "package.json"
+    "package.json",
+    "node_modules"
   ],
   "dependencies": {
     "jquery": "~1.10.2",
-    "jquery-bootswatch": "~0.0.5",
+    "jquery-bootswatch": "~0.0.5"
   }
 }
