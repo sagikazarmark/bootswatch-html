@@ -1,6 +1,6 @@
 # Bootswatch HTML
 
-**Bootswatch HTML files to be built with **`grunt-processhtml`
+**Bootswatch HTML files to be built with** `grunt-processhtml`
 
 ## Install
 
