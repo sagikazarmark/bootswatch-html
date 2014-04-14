@@ -1,7 +1,7 @@
 {
   "name": "bootswatch-html",
   "description": "Bootswatch HTML files",
-  "version": "1.0.0",
+  "version": "1.0.4",
   "homepage": "http://indigophp.com",
   "author": "Márk Sági-Kazár",
   "devDependencies": {
