@@ -16,6 +16,10 @@ module.exports = function(grunt) {
     },
 
     copy: {
+      js: {
+        src: 'js/*',
+        dest: 'dist/assets/'
+      },
       vendor_js: {
         expand: true,
         flatten: true,
